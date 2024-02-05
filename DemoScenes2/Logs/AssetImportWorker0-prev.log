@@ -15,7 +15,7 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64399
+51875
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40412] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 2656457969 [EditorId] 2656457969 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [40412] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 2656457969 [EditorId] 2656457969 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32100] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 2807117228 [EditorId] 2807117228 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [32100] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 2807117228 [EditorId] 2807117228 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,43 +95,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003417 seconds.
-- Loaded All Assemblies, in  0.368 seconds
+Registered in 0.007715 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.297 seconds
-Domain Reload Profiling: 663ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 697ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (141ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (298ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (244ms)
+		SetupLoadedEditorAssemblies (223ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,236 +154,148 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.770 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.993 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.609 seconds
-Domain Reload Profiling: 1376ms
-	BeginReloadAssembly (307ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1632ms
+	BeginReloadAssembly (334ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (382ms)
-		LoadAssemblies (269ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (146ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (609ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (642ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (373ms)
+		SetupLoadedEditorAssemblies (382ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (4.6 MB). Loaded Objects now: 5915.
-Memory consumption went from 182.9 MB to 178.3 MB.
-Total: 7.456500 ms (FindLiveObjects: 0.651000 ms CreateObjectMapping: 0.476800 ms MarkObjects: 3.931500 ms  DeleteObjects: 2.395500 ms)
+Unloading 195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5243 unused Assets / (5.9 MB). Loaded Objects now: 5919.
+Memory consumption went from 189.8 MB to 183.9 MB.
+Total: 6.414100 ms (FindLiveObjects: 0.441900 ms CreateObjectMapping: 0.404700 ms MarkObjects: 3.322000 ms  DeleteObjects: 2.244500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 447575.427414 seconds.
-  path: Assets/Scenes/LinkScene.unity
-  artifactKey: Guid(e525ae82232574647a13c89c86089c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LinkScene.unity using Guid(e525ae82232574647a13c89c86089c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e24d05ec2ee94f5cd010932f5b49eb') in 0.0059699 seconds
+  Time since last request: 1232581.926816 seconds.
+  path: Assets/Scenes/MovieScene.unity
+  artifactKey: Guid(81ecb74342fd3b0469583097d761ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MovieScene.unity using Guid(81ecb74342fd3b0469583097d761ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfc29a53ded3367bf5055b22130f2a5') in 0.0075076 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.188215 seconds.
-  path: Assets/BASE-Link
-  artifactKey: Guid(12d5ccb1fe51efa41a001a4cc3a84a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link using Guid(12d5ccb1fe51efa41a001a4cc3a84a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1189e4052e56a8b6c138433242e363f7') in 0.0005554 seconds
+  Time since last request: 1011.113071 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(6303b895e4e54bf43805362302eec9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(6303b895e4e54bf43805362302eec9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '427352ae0cd5b9c3900b803f798a3257') in 0.0366354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.758038 seconds.
+  path: Assets/Scene4Assets
+  artifactKey: Guid(1bb6a73be8b00fd46b418f26498f3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets using Guid(1bb6a73be8b00fd46b418f26498f3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62110a7e9b16a2e2dc958fe54d2b3acb') in 0.0008108 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.082642 seconds.
-  path: Assets/BASE-Link/Link.prefab
-  artifactKey: Guid(8135b8c8eda37fc41aed65254ff770a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Link.prefab using Guid(8135b8c8eda37fc41aed65254ff770a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '495411fb083f13176e81aabbf1b54ff5') in 2.9119811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 664
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.501 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.579 seconds
-Domain Reload Profiling: 1079ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (92ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (579ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5239 unused Assets / (5.4 MB). Loaded Objects now: 5960.
-Memory consumption went from 175.2 MB to 169.8 MB.
-Total: 7.925100 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.554500 ms MarkObjects: 3.934000 ms  DeleteObjects: 2.794800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 161.809857 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link
-  artifactKey: Guid(34445e7989f602845b88d22e98ba395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link using Guid(34445e7989f602845b88d22e98ba395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98dad62a411415b140124bf04dc3b936') in 0.0080263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 9.092250 seconds.
+  path: Assets/Scene4Assets/Grass.mat
+  artifactKey: Guid(6c2a35e2d241f394e8d37d482e6fff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Grass.mat using Guid(6c2a35e2d241f394e8d37d482e6fff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a655ce4be81e163c198517aca94a583b') in 0.2752018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.129821 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/Link.dae
-  artifactKey: Guid(2104ba2d3a0854cfe852e08bcb240cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/Link.dae using Guid(2104ba2d3a0854cfe852e08bcb240cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30a9117c173e7793f5c42495158c1be8') in 0.7408162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 350
+  Time since last request: 20.662048 seconds.
+  path: Assets/Scene4Assets/Grass.mat
+  artifactKey: Guid(6c2a35e2d241f394e8d37d482e6fff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Grass.mat using Guid(6c2a35e2d241f394e8d37d482e6fff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c7a642a75b4f797306dac1bac00824') in 0.0264335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_alb.png
-  artifactKey: Guid(e26657f05071540c9a30cae9d1c55b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_alb.png using Guid(e26657f05071540c9a30cae9d1c55b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0c12b8ac5b24aff789fcc61ab785815') in 0.0210923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 7.864597 seconds.
+  path: Assets/Scene4Assets/Stone.mat
+  artifactKey: Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Stone.mat using Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b74198c7393bbb15668035d8c9d004fa') in 0.0368688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_alb.png
-  artifactKey: Guid(4293c504e1b0b4333b64b47200f9152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_alb.png using Guid(4293c504e1b0b4333b64b47200f9152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c648c615ab414109e43181aa416d90e7') in 0.0146917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 17.882245 seconds.
+  path: Assets/Scene4Assets/Stone.mat
+  artifactKey: Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Stone.mat using Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5da1085d06c538376092711db785af8') in 0.0480693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_nrm.png
-  artifactKey: Guid(c54f3479907004eb29d4036b0ff0463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_nrm.png using Guid(c54f3479907004eb29d4036b0ff0463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c66672d51a5ae983910e88fbd8f94f') in 0.0159524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 5.366230 seconds.
+  path: Assets/Scene4Assets/Snow.mat
+  artifactKey: Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Snow.mat using Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94801ea993a4248831dae87649d59ddb') in 0.045221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_spm.png
-  artifactKey: Guid(e6bfca1a59100490b931c585793e9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_spm.png using Guid(e6bfca1a59100490b931c585793e9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '660730605e076f1b5d920d31b59f0f27') in 0.0142453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 66.260698 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e02e008d0e640f22a96af0f69905e6') in 0.0259314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_nrm.png
-  artifactKey: Guid(89ff38dd37223400ba47e93f4872ebcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_nrm.png using Guid(89ff38dd37223400ba47e93f4872ebcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3110a4fcb6e1d8196b439a9fa040dd38') in 0.0132523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d18c31aad7de01bffa6e3a02de8decd') in 0.0137806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.861309 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_spm.png
-  artifactKey: Guid(ee965e33f7faa41fface0e9c42a5d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_spm.png using Guid(ee965e33f7faa41fface0e9c42a5d570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b302b060087017590c1e9fe089f925f9') in 0.0880815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c47f78e6f95a9969d73ae685de8d95a0') in 0.1786277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set
-  artifactKey: Guid(23efd89f5ac1e794ba482c27af54628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set using Guid(23efd89f5ac1e794ba482c27af54628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d46b6d217832e93aed18675833381a6') in 0.0007888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_mtl.png
-  artifactKey: Guid(788c84d5350f3425dbf99aead018592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_mtl.png using Guid(788c84d5350f3425dbf99aead018592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecf19f1d94547e5688137850935486c') in 0.0157578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/Armor_215_Lower.fbx
-  artifactKey: Guid(4e0fcf8a9e50e47869c08b6ab5796b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/Armor_215_Lower.fbx using Guid(4e0fcf8a9e50e47869c08b6ab5796b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cedd5f68ea34f672011721f7b741c818') in 0.0369163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_nrm.png
-  artifactKey: Guid(62d223321656f4271aa117d226f158cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_nrm.png using Guid(62d223321656f4271aa117d226f158cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7cf314591a2f16cb2980bd276b9ad8') in 0.018167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1ede2b7307f75c457d33790add7c02e') in 0.9762715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

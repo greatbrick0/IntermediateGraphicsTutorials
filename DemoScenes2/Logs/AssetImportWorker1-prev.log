@@ -15,7 +15,7 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64399
+51875
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3664] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 1954519598 [EditorId] 1954519598 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [3664] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 1954519598 [EditorId] 1954519598 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14844] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 1130717679 [EditorId] 1130717679 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14844] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 1130717679 [EditorId] 1130717679 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,43 +95,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004668 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Registered in 0.007049 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.300 seconds
-Domain Reload Profiling: 656ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 696ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (113ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (139ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (301ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (274ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (226ms)
+		SetupLoadedEditorAssemblies (223ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,460 +154,124 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.772 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 1402ms
-	BeginReloadAssembly (311ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1648ms
+	BeginReloadAssembly (340ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (277ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (467ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (141ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (632ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
+		SetupLoadedEditorAssemblies (382ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (303ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (300ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (5.8 MB). Loaded Objects now: 5915.
-Memory consumption went from 181.0 MB to 175.3 MB.
-Total: 5.878800 ms (FindLiveObjects: 0.437100 ms CreateObjectMapping: 0.398500 ms MarkObjects: 2.970000 ms  DeleteObjects: 2.072200 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.502 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.576 seconds
-Domain Reload Profiling: 1078ms
-	BeginReloadAssembly (170ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (577ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5241 unused Assets / (6.2 MB). Loaded Objects now: 5916.
-Memory consumption went from 157.1 MB to 150.9 MB.
-Total: 9.063300 ms (FindLiveObjects: 0.675400 ms CreateObjectMapping: 0.751100 ms MarkObjects: 3.863400 ms  DeleteObjects: 3.770400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 447791.615434 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_alb.png
-  artifactKey: Guid(e3ad835d507ff4a66ab81070cb96ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_alb.png using Guid(e3ad835d507ff4a66ab81070cb96ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ade7e7a3933eae625b3822ffd65f3bb8') in 0.1685874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5243 unused Assets / (5.9 MB). Loaded Objects now: 5919.
+Memory consumption went from 182.0 MB to 176.1 MB.
+Total: 6.447200 ms (FindLiveObjects: 0.533300 ms CreateObjectMapping: 0.422400 ms MarkObjects: 3.037200 ms  DeleteObjects: 2.453600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_alb.png
-  artifactKey: Guid(01522c3b47055487f9afa0523cf3aec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_alb.png using Guid(01522c3b47055487f9afa0523cf3aec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6394d2c4fcce016a4fbf74a27b600555') in 0.0240523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1233638.912454 seconds.
+  path: Assets/Scene4Assets/Grass 1.mat
+  artifactKey: Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Grass 1.mat using Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e47d46c54f0bedb4cce945660cf910') in 0.3104966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_red_alb.png
-  artifactKey: Guid(53d7a4c7e379747b5b156a5578f9776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_red_alb.png using Guid(53d7a4c7e379747b5b156a5578f9776e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116ebe9695d02e0c0c7d234912154c4c') in 0.0213402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 25.500624 seconds.
+  path: Assets/Scene4Assets/Stone 1.mat
+  artifactKey: Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Stone 1.mat using Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '760ff0b43eedfdf5a9b0480dddb085b5') in 0.0464111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_ao.png
-  artifactKey: Guid(1188b79fd18a445fc8ea109c0474aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_ao.png using Guid(1188b79fd18a445fc8ea109c0474aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3efac546f124f5e7dd2241313a941ebe') in 0.0211171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 71.689278 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
+  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2e89627bb6dccd55cf6892ee41bd3b') in 0.3029745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_spm.png
-  artifactKey: Guid(ce150411d52494ee8a1a494c151ba813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_spm.png using Guid(ce150411d52494ee8a1a494c151ba813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d4ec207ee07e5e5753e03a9d7120d1e') in 0.0138587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_alb.png
-  artifactKey: Guid(9c33d5557d58747bc90745ed2b0a8b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_alb.png using Guid(9c33d5557d58747bc90745ed2b0a8b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00497cca835612179a5fbd5078cd8ddd') in 0.0150953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_red_alb.png
-  artifactKey: Guid(86d45c54acb4640ad8229bfb57076719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_red_alb.png using Guid(86d45c54acb4640ad8229bfb57076719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da89582bc69a23edae69053475941218') in 0.0125372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_spm.png
-  artifactKey: Guid(f702b5a6c86674e65afc93ca07501d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_spm.png using Guid(f702b5a6c86674e65afc93ca07501d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d540ff340929cb20ae526463fc82c7') in 0.014457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_ao.png
-  artifactKey: Guid(ccf62461d85844f8a8ceb81f6188c80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_ao.png using Guid(ccf62461d85844f8a8ceb81f6188c80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3de03490cf3d0bf85597d3aad770fc8d') in 0.0129452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_spm.png
-  artifactKey: Guid(4d10d3bdfd8b84c07b0336f349f3f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_spm.png using Guid(4d10d3bdfd8b84c07b0336f349f3f7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1ade79b0e3335f5e1c4f12eca293c5') in 0.0154723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_shadow_alb.png
-  artifactKey: Guid(885e3fd49f2194dab8b72c6c1ec11668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_shadow_alb.png using Guid(885e3fd49f2194dab8b72c6c1ec11668) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817669c9f794e5277059e96f81c71547') in 0.0159939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_shadow_alb.png
-  artifactKey: Guid(9b88ad6e8c80749f69cf02d1c3231025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_shadow_alb.png using Guid(9b88ad6e8c80749f69cf02d1c3231025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b946cd603a2be9f8a93417052bafbb') in 0.0148945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_alb.png
-  artifactKey: Guid(e44e8f0597d364d5e8b6521e8449e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_alb.png using Guid(e44e8f0597d364d5e8b6521e8449e900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '927a8b486e94e5c6fd72ec0de71522a0') in 0.0154784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_alb.png
-  artifactKey: Guid(08bc1c6b8b9f540558d8b5b0aaade52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_alb.png using Guid(08bc1c6b8b9f540558d8b5b0aaade52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '284a4faefc1d4b9f61f240ddabd01ccd') in 0.0131584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_nrm.png
-  artifactKey: Guid(3e1844320eaf140f5b6db6297e1c3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_nrm.png using Guid(3e1844320eaf140f5b6db6297e1c3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1feb489ef9405b6f41f6f9cda3ab17d5') in 0.0192264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_alb.png
-  artifactKey: Guid(aa128539d1a034d02bf05cec063cec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_alb.png using Guid(aa128539d1a034d02bf05cec063cec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '460bf9c5b571e41dbefb4865cf99065d') in 0.0145208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_nrm.png
-  artifactKey: Guid(e89bd549dfd9b449eb10a2856bd7bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_nrm.png using Guid(e89bd549dfd9b449eb10a2856bd7bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb07f5670e1ef91de5166c13ac34b02a') in 0.0153472 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_nrm.png
-  artifactKey: Guid(aa9424737214844a3a5000d643c3eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_nrm.png using Guid(aa9424737214844a3a5000d643c3eba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34f06d489247caf3fd54eb088bc1668b') in 0.0169265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_spm.png
-  artifactKey: Guid(0b7f4e9aa7d1d4c829b15cb90a343e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_earring_spm.png using Guid(0b7f4e9aa7d1d4c829b15cb90a343e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9b8d13bd336f6ca0293197941ab67ac') in 0.0124895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_nrm.png
-  artifactKey: Guid(2fc4f49dcb35142fa9ba293f7e450dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_r_nrm.png using Guid(2fc4f49dcb35142fa9ba293f7e450dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c9c5ea359f001ed22b0a2f6be4f88e4') in 0.0125046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bab384e7fc8e22ba3a9a791f6dcae7e2') in 0.019723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_nrm.png
-  artifactKey: Guid(f8cb3f8ff650d4a29a907f6575af6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_nrm.png using Guid(f8cb3f8ff650d4a29a907f6575af6643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0e256271770ce16f43d0dd1ef1df014') in 0.0171072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5950d577ae33ab428fa930425c3c41ef') in 0.6986304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_damage_alb.png
-  artifactKey: Guid(63701328e0c6345e5a68aa638233a92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_skin_damage_alb.png using Guid(63701328e0c6345e5a68aa638233a92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac4937d577170fefc609608f67db500') in 0.0222647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1b43312010167bb4953b87dbbb253f') in 0.0104842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_spm.png
-  artifactKey: Guid(7971da87d47ef430f8edabb56ec23a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_c_spm.png using Guid(7971da87d47ef430f8edabb56ec23a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8066ac59d581fc8c92a06e5a8f3a6205') in 0.0145925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8332e63985ce71111b52bfd69dfa8950') in 0.0213283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_nrm.png
-  artifactKey: Guid(1feb1515b9d564a2b83751aa9912e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_nrm.png using Guid(1feb1515b9d564a2b83751aa9912e6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '752e21d23148a6db982098304ed0bf36') in 0.0059045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee85f5bd396e6480c57f67fdd3b38cd3') in 0.0086628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_spm.png
-  artifactKey: Guid(77f310e2642eb4916bf61fe53daa5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_spm.png using Guid(77f310e2642eb4916bf61fe53daa5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea061dc03bb8f21356638490a1e695e2') in 0.0067926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_spm.png
-  artifactKey: Guid(2fa8df1242cad43eb97359ffa99c19c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyelashes_spm.png using Guid(2fa8df1242cad43eb97359ffa99c19c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db5e24c762df0587a421179b1826662') in 0.0133722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_alb.png
-  artifactKey: Guid(0735d0941b48349199edf62db21f6d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_eyeball_l_alb.png using Guid(0735d0941b48349199edf62db21f6d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e4c7f739ad008070645761d8f1991c2') in 0.0148391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_damage_alb.png
-  artifactKey: Guid(7875a446743d14ebc80f30829aa9db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_head_damage_alb.png using Guid(7875a446743d14ebc80f30829aa9db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6215ba28f855a497f2b943fe5039a5ea') in 0.0141174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_nrm.png
-  artifactKey: Guid(ab123d79557604badb79f52a3aa0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_belt_a_nrm.png using Guid(ab123d79557604badb79f52a3aa0b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c8dcf10b35ad727d47ea8d24f869bef') in 0.0146973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_spm.png
-  artifactKey: Guid(c4765b7741c0f4b908912cc7a61e0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/link_hair_spm.png using Guid(c4765b7741c0f4b908912cc7a61e0497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68a5accbf7afa38a914fa8b3fdd6eb0f') in 0.0127863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.870536 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/Armor_215_Head.fbx
-  artifactKey: Guid(17c029a2463c14e86876eaa8e08a4cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/Armor_215_Head.fbx using Guid(17c029a2463c14e86876eaa8e08a4cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b8f964457fc55c675ecb03fee6b395') in 1.1493802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 661.445088 seconds.
-  path: Assets/Scene3Assets/LinkShader.shadergraph
-  artifactKey: Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/LinkShader.shadergraph using Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5681ea446c58543c886af19176b20409') in 0.4126213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 412.314260 seconds.
-  path: Assets/Scene3Assets/LinkShader.shadergraph
-  artifactKey: Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/LinkShader.shadergraph using Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73bf8d850790e6286091de91997927d8') in 0.3872203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.177392 seconds.
-  path: Assets/Scene3Assets/LinkShader.shadergraph
-  artifactKey: Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/LinkShader.shadergraph using Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d076886f05ea965e9e1914a6a0ba29c') in 0.4027964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.099698 seconds.
-  path: Assets/Scene3Assets/LinkShader.shadergraph
-  artifactKey: Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/LinkShader.shadergraph using Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2656af2ea011381a1052a27b4dab72e8') in 0.5725615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.795689 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_A_001.mat
-  artifactKey: Guid(c36f724342dee4b5bbf79fe6c152265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_A_001.mat using Guid(c36f724342dee4b5bbf79fe6c152265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95cd479d521b21f7fceebef6e14b9762') in 0.070383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Lower_Skin.mat
-  artifactKey: Guid(51f80d9f389fd423197b6a6159969fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Lower_Skin.mat using Guid(51f80d9f389fd423197b6a6159969fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ed68f632af4c31f179a41f84dd0d387') in 0.0211411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Earring.mat
-  artifactKey: Guid(88cb5b362ef1a4e5aa5d8d0e258e4616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Earring.mat using Guid(88cb5b362ef1a4e5aa5d8d0e258e4616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '022454a8bf8e75077867daf475fece26') in 0.018551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Head.mat
-  artifactKey: Guid(22f35a762dd134c6a807b61b420233a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Head.mat using Guid(22f35a762dd134c6a807b61b420233a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89985a71d095ba158a3437a92ce3da0d') in 0.016861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyelashes.mat
-  artifactKey: Guid(6892fdd2b2a954212aa39fc9c27bd037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyelashes.mat using Guid(6892fdd2b2a954212aa39fc9c27bd037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9f38e2968fde5f50cd387a57765de17') in 0.6113742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.992741 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Hair_215.mat
-  artifactKey: Guid(0822e37dd90d840ceb412a9d52d5a871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Hair_215.mat using Guid(0822e37dd90d840ceb412a9d52d5a871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c17eaecb1d842ee3dffdb1b004359df') in 0.0235853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Upper_Skin.mat
-  artifactKey: Guid(2a2b96ca2d75547fca7535f314ef02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Upper_Skin.mat using Guid(2a2b96ca2d75547fca7535f314ef02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1df88628196c0315b1608c31cff099ea') in 0.047305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Upper_215.mat
-  artifactKey: Guid(1e16ccdd01c63450ba415ecf75a6a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Upper_215.mat using Guid(1e16ccdd01c63450ba415ecf75a6a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '832933af5dedaed56c1f82cf0ff8c9e7') in 0.0176696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041a9be81899371de3f7884bda443a3c') in 0.0184575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

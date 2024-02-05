@@ -15,7 +15,7 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64399
+51875
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42000] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 3227531419 [EditorId] 3227531419 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [42000] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 3227531419 [EditorId] 3227531419 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29976] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 511290357 [EditorId] 511290357 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29976] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 511290357 [EditorId] 511290357 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,43 +95,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003655 seconds.
-- Loaded All Assemblies, in  0.382 seconds
+Registered in 0.007897 seconds.
+- Loaded All Assemblies, in  0.418 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.239 seconds
-Domain Reload Profiling: 619ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.266 seconds
+Domain Reload Profiling: 682ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (157ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (112ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (151ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (239ms)
+	FinalizeReload (266ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (196ms)
+		SetupLoadedEditorAssemblies (216ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,79 +154,131 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.690 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.837 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.584 seconds
-Domain Reload Profiling: 1271ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (307ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (262ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (367ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (115ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (585ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (643ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (395ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (3.6 MB). Loaded Objects now: 5915.
-Memory consumption went from 188.7 MB to 185.1 MB.
-Total: 6.261700 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.535300 ms MarkObjects: 3.299500 ms  DeleteObjects: 1.915500 ms)
+Unloading 195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5240 unused Assets / (5.2 MB). Loaded Objects now: 5925.
+Memory consumption went from 190.1 MB to 184.9 MB.
+Total: 12.967000 ms (FindLiveObjects: 1.100700 ms CreateObjectMapping: 0.852500 ms MarkObjects: 6.445200 ms  DeleteObjects: 4.566300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 447801.357013 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_nrm.png
-  artifactKey: Guid(de0e36c3f65b44485b334fb05a4e9132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_nrm.png using Guid(de0e36c3f65b44485b334fb05a4e9132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ed7c5d44de676673d14419761b446e9') in 0.1487248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1233756.882056 seconds.
+  path: Assets/Scene4Assets/Stone.mat
+  artifactKey: Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Stone.mat using Guid(16cdeace486e8c04d8f38d3711026a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b96d3fb6e0f130ce4f4e469e819fedf') in 0.3267391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_lower_alb.png
-  artifactKey: Guid(6923ad11dfbe845ccb350be324891998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_lower_alb.png using Guid(6923ad11dfbe845ccb350be324891998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '251a51f9694e50ed8ea11beb7270fc0d') in 0.0169967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1995.763267 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '141631e7098101b1fb27367bc3a476e0') in 0.128442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 577.088260 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecbe4f5d4ae060fca80a2337ab3736d1') in 0.0264516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_head_spm.png
-  artifactKey: Guid(9c4f79bb9918a4f838f6675ed992112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_head_spm.png using Guid(9c4f79bb9918a4f838f6675ed992112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6748f38faff33408b7b9178193636faa') in 0.0132939 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28f6b45ab30352049c828e7f9053eb08') in 0.023013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 265.122036 seconds.
+  path: Assets/CreativeCore_Shaders/Models/GlassVase.FBX
+  artifactKey: Guid(aabbaa0671965744eab2b299e205abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Shaders/Models/GlassVase.FBX using Guid(aabbaa0671965744eab2b299e205abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb404f55d35d3c4da3c66c1a28db3a61') in 0.1243308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.329554 seconds.
+  path: Assets/Scene4Assets/Wood.mat
+  artifactKey: Guid(e8cfa3f30b2470945956fb7acd7c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Wood.mat using Guid(e8cfa3f30b2470945956fb7acd7c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d99686ea838ade85e64d8d034a539e') in 0.0392913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.028698 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d165f52bb813e677baf98c4323fd77e') in 0.0223764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ecbd652fd8a2467942b1e66c2117ee9') in 0.0216921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.964809 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5e7101b8589d865f6ef4efe1832023d') in 0.0349174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab7642d19cba05917f12dea240c19785') in 0.0367933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

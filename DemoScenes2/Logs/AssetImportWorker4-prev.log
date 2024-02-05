@@ -15,7 +15,7 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-64399
+51875
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21156] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 3195677341 [EditorId] 3195677341 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [21156] Host "[IP] 10.190.12.200 [Port] 0 [Flags] 2 [Guid] 3195677341 [EditorId] 3195677341 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36068] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 3569463516 [EditorId] 3569463516 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36068] Host "[IP] 10.190.8.38 [Port] 0 [Flags] 2 [Guid] 3569463516 [EditorId] 3569463516 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,42 +95,42 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003686 seconds.
-- Loaded All Assemblies, in  0.374 seconds
+Registered in 0.004145 seconds.
+- Loaded All Assemblies, in  0.419 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.242 seconds
-Domain Reload Profiling: 614ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.267 seconds
+Domain Reload Profiling: 684ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (147ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (242ms)
+	FinalizeReload (267ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (197ms)
+		SetupLoadedEditorAssemblies (213ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadAttributes (157ms)
 			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -154,254 +154,531 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.705 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.572 seconds
-Domain Reload Profiling: 1274ms
-	BeginReloadAssembly (277ms)
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (318ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (352ms)
-		LoadAssemblies (267ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (367ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (120ms)
-			BuildScriptInfoCaches (24ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (26ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (572ms)
+	FinalizeReload (648ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
+		SetupLoadedEditorAssemblies (395ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 194 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5243 unused Assets / (3.3 MB). Loaded Objects now: 5915.
-Memory consumption went from 185.0 MB to 181.7 MB.
-Total: 5.939000 ms (FindLiveObjects: 0.450300 ms CreateObjectMapping: 0.427800 ms MarkObjects: 3.319700 ms  DeleteObjects: 1.740200 ms)
+Unloading 195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5240 unused Assets / (5.6 MB). Loaded Objects now: 5925.
+Memory consumption went from 188.1 MB to 182.6 MB.
+Total: 12.215200 ms (FindLiveObjects: 1.380200 ms CreateObjectMapping: 0.914200 ms MarkObjects: 5.938100 ms  DeleteObjects: 3.980200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 447801.356860 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_alb.png
-  artifactKey: Guid(e5829744e6c6a4585aa759a0098c531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_hair_alb.png using Guid(e5829744e6c6a4585aa759a0098c531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2add91c3d5d5c4582d3db9f442394d42') in 0.0989514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1233756.881670 seconds.
+  path: Assets/Scene4Assets/Snow.mat
+  artifactKey: Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Snow.mat using Guid(db0b5568a52716c429e432e709e86f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3883377759a54dd3841bdf91d9803346') in 0.3222538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_lower_nrm.png
-  artifactKey: Guid(08745774d673f46ef9029e254dda4725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_lower_nrm.png using Guid(08745774d673f46ef9029e254dda4725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61952d8ef9b4f91b5e70f76014057523') in 0.0216735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 168.606773 seconds.
+  path: Assets/Scene4Assets/New Terrain Layer.terrainlayer
+  artifactKey: Guid(c7e749a52c59b0f4a858d9d49069e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/New Terrain Layer.terrainlayer using Guid(c7e749a52c59b0f4a858d9d49069e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6789ec1052bbc0f12a8339cc177da75') in 0.0124469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_alb.png
-  artifactKey: Guid(aca4746a212dd4f51979b8455eb15018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/armor_215_upper_alb.png using Guid(aca4746a212dd4f51979b8455eb15018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f081133b01d0e3e0c852609fda410ca9') in 0.0157457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 313.535148 seconds.
+  path: Assets/Scene4Assets/GrassTerrain.terrainlayer
+  artifactKey: Guid(c07e642a57da1094baffbb84f50ed662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/GrassTerrain.terrainlayer using Guid(c07e642a57da1094baffbb84f50ed662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69b670fb5736ef6d18cddc8ec9abebe4') in 0.0021179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BASE-Link/Hero of the Sky Set/Armor_215_Upper.fbx
-  artifactKey: Guid(d6ec9dc974d26466982ddd4c55d18d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BASE-Link/Hero of the Sky Set/Armor_215_Upper.fbx using Guid(d6ec9dc974d26466982ddd4c55d18d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d431985564533f144938805385f0b68') in 0.5803871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 286
+  Time since last request: 960.609540 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d879e803a3845328dbfc4714ac7568') in 0.0086242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 137.710288 seconds.
-  path: Assets/Scene3Assets
-  artifactKey: Guid(57b10e820f02b4d4eb4746edbcd0ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets using Guid(57b10e820f02b4d4eb4746edbcd0ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4af6f17bc66ba9298e5a86ccbaf008ef') in 0.0014824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 9.393264 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11e272d6f6f9b8e350fd1622a59f6f0b') in 0.0382685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.995975 seconds.
-  path: Assets/Scene3Assets/LinkShader.shadergraph
-  artifactKey: Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/LinkShader.shadergraph using Guid(5bb864adb3ebbff48824b780f44aae5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b49d9c3bc8add9f3edac1aa679c5dfa') in 0.4002145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+  Time since last request: 14.394663 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04f3d9f7cd9686c586b1f5d1ac9a0cc6') in 0.0159473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.777840 seconds.
-  path: Assets/Scene3Assets/SphereMaterial.mat
-  artifactKey: Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/SphereMaterial.mat using Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '022b8c21fc1cfd8403040894bfa2acd4') in 0.0381836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 9.112212 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c495dd792578eb57d61395a7a38b12b') in 0.0187619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 456.775687 seconds.
-  path: Assets/Scene3Assets/SphereMaterial.mat
-  artifactKey: Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/SphereMaterial.mat using Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a75f52dece8a00581ff14c457e20e2') in 0.3966508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 2.809629 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac5d6a298a55d32aa85f95b08d591089') in 0.0305376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 412.347699 seconds.
-  path: Assets/Scene3Assets/SphereMaterial.mat
-  artifactKey: Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/SphereMaterial.mat using Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4138467562cef0b5d7499b5663eceea6') in 0.3640074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 5.956335 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b1a30262221bcee35898e3414ce412b') in 0.0103965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.180830 seconds.
-  path: Assets/Scene3Assets/SphereMaterial.mat
-  artifactKey: Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/SphereMaterial.mat using Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7295362d88d29721c05e15ea66df0d') in 0.3871617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 12.543130 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3152e76cdcf10aae52693ddb66a0e3e') in 0.0270377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.114075 seconds.
-  path: Assets/Scene3Assets/SphereMaterial.mat
-  artifactKey: Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/SphereMaterial.mat using Guid(3344efc929c98e3489d32cbb373030cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ba151d5224714ba3a9ce469d1dca1e5') in 0.5689101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 7.636561 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbb7f9d7d695bd28a98a98847c05a754') in 0.0169148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.314242 seconds.
-  path: Assets/Scene3Assets/NewLinkMat.mat
-  artifactKey: Guid(f8b024e5eb8c6eb4f91c011a168b7e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/NewLinkMat.mat using Guid(f8b024e5eb8c6eb4f91c011a168b7e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4628a72fb6abca9b6aa040c7b2a5766') in 0.0181498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+  Time since last request: 2.025999 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d44edd378b118098229099f811d3d55') in 0.0341541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.545804 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials
-  artifactKey: Guid(9f68eafd20f62f94bb040b88f17d5c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials using Guid(9f68eafd20f62f94bb040b88f17d5c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ecac6dbd1e7e6d5db622388f059b8c') in 0.0010305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 4.202133 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c2330f18be131327f9e3d51617d72d4') in 0.0288967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033421 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_A.mat
-  artifactKey: Guid(75cca95424fbf4d42863c892a4a81eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_A.mat using Guid(75cca95424fbf4d42863c892a4a81eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca9aeb6a3f3a2abb430abaeccccde8cd') in 0.0703819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 2.785963 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace7120431cd3b8f239bd720d867f976') in 0.0365564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Head_001.mat
-  artifactKey: Guid(bcda0fe101b034e9799ed72623104bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Head_001.mat using Guid(bcda0fe101b034e9799ed72623104bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4e87560d58e72a3099e634017f7e208') in 0.021372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 3.790343 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d8f7ff6941d6f74cedef4cffd32c9df') in 0.0288505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Underwear.mat
-  artifactKey: Guid(eb00d267d2a8e4c70bbedcf21e74563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Underwear.mat using Guid(eb00d267d2a8e4c70bbedcf21e74563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dce0b37429d81f6e83436b67fc4cbc1e') in 0.0183616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 10.683277 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb859a44d6e0ab977e87c49a58de3a23') in 0.0164199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Face.mat
-  artifactKey: Guid(2911871f30e334b859dc3a1241f1b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Face.mat using Guid(2911871f30e334b859dc3a1241f1b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c55cb17f422f0964ce3700a40d1998dd') in 0.0181868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 9.400018 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e2ae5c37fe4b0d54b3db6f94265fd0') in 0.0231911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyeball_R.mat
-  artifactKey: Guid(b0a2f6fb059a944c195cd8caa198ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyeball_R.mat using Guid(b0a2f6fb059a944c195cd8caa198ac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '972932362b731cba04a3d5d0baf7a3d9') in 0.0210464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 20.662346 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f08b11116eea750308e19ef1297ca7') in 0.025333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Upper_Skin.mat
-  artifactKey: Guid(82c6d5dba16594b1e90fc8fcdefab8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Upper_Skin.mat using Guid(82c6d5dba16594b1e90fc8fcdefab8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b0356f9b77141e01849dc0e33738e06') in 0.0177265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 49.560122 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc152d146df37abd2c3908f326c1a269') in 0.0156667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Face_001.mat
-  artifactKey: Guid(855f0b6bc220147e096c42515582460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Face_001.mat using Guid(855f0b6bc220147e096c42515582460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f1d764475603a67ca3275875cf4032') in 0.0168655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 84.552407 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021d8ff98be61b94ffb297874133c69a') in 0.0199231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyeball_L.mat
-  artifactKey: Guid(53bd355ca2307466c87da88a341c6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Eyeball_L.mat using Guid(53bd355ca2307466c87da88a341c6252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4313e9b848b03fc276b2b9869b005bce') in 0.0174882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 3.204044 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37977b0aee96f234401b1536585faa8') in 0.0189425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_C.mat
-  artifactKey: Guid(1813b2df884e44fa9a904dd4ddecbb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/materials/Mt_Belt_C.mat using Guid(1813b2df884e44fa9a904dd4ddecbb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94b5b508dbab5779781eef01e7b893a3') in 0.0187062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  Time since last request: 201.783272 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1ba9721aabad6d4ad192905c2e75c33') in 0.0021273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.471348 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Belt_B_215.mat
-  artifactKey: Guid(b411b81003e994ea8b4607ebfd71a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Belt_B_215.mat using Guid(b411b81003e994ea8b4607ebfd71a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cb31d97dec392284dd65257586d8c77') in 0.0510544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 3.649888 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c14e8d299b20e4e995002b6f25dbd95') in 0.0210983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Mant.mat
-  artifactKey: Guid(d91ad56c5d7c84a4b9e1019f935aeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Mant.mat using Guid(d91ad56c5d7c84a4b9e1019f935aeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '742a2325d99c958fae0ac9ddd8ffb467') in 0.0368631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 1.803482 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abe954f96c6dac6a965dc868aaf02c6c') in 0.0093868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Mant_B.mat
-  artifactKey: Guid(6a68b3d1a4fad4e6b897e69f7fd128c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene3Assets/BASE-Link/Hero of the Sky Set/materials/Mt_Mant_B.mat using Guid(6a68b3d1a4fad4e6b897e69f7fd128c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c684f3cef4719b4831984f3c63ef387') in 0.0182056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+  Time since last request: 0.965610 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '786fb12e49cd8b52946bbe4cbc3b7fbf') in 0.0168567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.851609 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89177ae2ef7a47fe992ab959738dd842') in 0.0323457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.650757 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c685e9e24f4cbdb324e31af36c218901') in 0.0416646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.846925 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b1a0d26b0fde5838502739b35fc32d4') in 0.0297851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.112630 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb673bca3798b49ade3c299843d0597e') in 0.0213572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.402498 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18302ae4e96f2c7335e9711497df3cca') in 0.0369424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.766333 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '298950061f5c6300b86a82ec51f1bb90') in 0.0179684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.947148 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d9629bbc6299eea6b6f8d574f81708b') in 0.0163855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.329266 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9618dd0a18416620b991037576e8451') in 0.0214273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.421502 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a8bc7630f5ccd946d8451bb50ca712') in 0.031209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.665847 seconds.
+  path: Assets/Scene4Assets/Leaves.mat
+  artifactKey: Guid(daecb3f9e2bf09b4bbf843ec8b2dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Leaves.mat using Guid(daecb3f9e2bf09b4bbf843ec8b2dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b3b5db4cadb535002b1a2bd8bd6b56') in 0.0553781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.007747 seconds.
+  path: Assets/Scene4Assets/Tree.prefab
+  artifactKey: Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Tree.prefab using Guid(3607abf27c7250748abdefa63abe0caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02be642a1ffd71f4de02efc226ab1c43') in 0.0176336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.518860 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69abc1822ac0e136361ce3b5d11ed68a') in 0.0020182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.462788 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8022c5e14175b86cc64954f1a5217c78') in 0.019718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.849294 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2338f7ae735ce8fc2bccbc1bfb69f4') in 0.0172057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 171
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983646 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '922676d0702b5bd2079665daa7bfb7db') in 0.0192836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 171
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.584617 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '778f24060f9bba63919e4f9f41f94d7d') in 0.0200574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 213
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.399514 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e415acc3d90c4c9ae237c65ad22021') in 0.0244813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 213
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.897039 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632f554d0ff3259f5338be89cde76817') in 0.0219249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 227
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.684763 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5334ccebcb370af0d4faf487adb8851a') in 0.0246471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.023561 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '727603509b512141d1f44d8e32aac1ad') in 0.0215466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 255
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852470 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '788fd895a8f1aa24497987f8d6d6c9aa') in 0.0203612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 269
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.859469 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbd9196ce4d87fa72af4d56ac487b7b4') in 0.0175596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.586213 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7e8c44c20cea4aaf7683930367d807d') in 0.019128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.589714 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfb87b44eb93f540557d24280e7e31e8') in 0.0181274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.612869 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e209d7e1ffb3b14000adb1ba1c70343') in 0.0262274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 283
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.905439 seconds.
+  path: Assets/Scene4Assets/Leaves.mat
+  artifactKey: Guid(daecb3f9e2bf09b4bbf843ec8b2dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Leaves.mat using Guid(daecb3f9e2bf09b4bbf843ec8b2dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e5926a43f087266ab27771d46a5bb6') in 0.0215228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scene4Assets/Trees.prefab
+  artifactKey: Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Trees.prefab using Guid(b056d51167376ca41a7f0a3894a2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67dd66306d188a4a2c8617d25ce7f8d5') in 0.0201166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.849754 seconds.
+  path: Assets/Scene4Assets/Fire.mat
+  artifactKey: Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Fire.mat using Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04d2d5452b2e35317ecfb9ebd8b0643f') in 0.0399745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.235646 seconds.
+  path: Assets/CreativeCore_Shaders/Models/GalleryInterior.fbx
+  artifactKey: Guid(dc41f39fbf512ee459a69bcac9f872e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Shaders/Models/GalleryInterior.fbx using Guid(dc41f39fbf512ee459a69bcac9f872e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441f0907c3ead618eac1afb7262763df') in 0.4382556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 212
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186984 seconds.
+  path: Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/Link.dae
+  artifactKey: Guid(2104ba2d3a0854cfe852e08bcb240cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene3Assets/BASE-Link/Wii U - The Legend of Zelda Breath of the Wild - Link/Link.dae using Guid(2104ba2d3a0854cfe852e08bcb240cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07df0f4a59b874d8ae16432e2d7ed4bb') in 0.2260372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 352
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.594133 seconds.
+  path: Assets/Scene4Assets/Fire.mat
+  artifactKey: Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Fire.mat using Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f7d052103e020057ee53ab78ae43fe') in 0.5878662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.481394 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5058887027d7066bdd8398f4a8dc69a9') in 0.020866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 284
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.994019 seconds.
+  path: Assets/Scene4Assets/ManyTrees.prefab
+  artifactKey: Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/ManyTrees.prefab using Guid(7cad8afb42dc1274a8d17fee7c58c1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f53b551da61455d731140dfe09032c26') in 0.0309441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 284
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scene4Assets/Wood.mat
+  artifactKey: Guid(e8cfa3f30b2470945956fb7acd7c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Wood.mat using Guid(e8cfa3f30b2470945956fb7acd7c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7670141d270c655c162c3e3ad9df126c') in 0.0475067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.863072 seconds.
+  path: Assets/Scene4Assets/Fire.mat
+  artifactKey: Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene4Assets/Fire.mat using Guid(594ed18c65b0ac449b302bcebb4698d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5973d33c22fa1eadbc4e1f27030f5a') in 0.0206536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
