@@ -15,7 +15,7 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57269
+51734
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Unity Projects/IntermediateGraphicsTutorials/DemoScenes2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35616] Host "[IP] 10.10.13.190 [Port] 0 [Flags] 2 [Guid] 4254526448 [EditorId] 4254526448 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [35616] Host "[IP] 10.10.13.190 [Port] 0 [Flags] 2 [Guid] 4254526448 [EditorId] 4254526448 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27948] Host "[IP] 10.10.13.190 [Port] 0 [Flags] 2 [Guid] 2216278973 [EditorId] 2216278973 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27948] Host "[IP] 10.10.13.190 [Port] 0 [Flags] 2 [Guid] 2216278973 [EditorId] 2216278973 [Version] 1048832 [Id] WindowsEditor(7,GreatBrick) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,43 +95,43 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.020456 seconds.
-- Loaded All Assemblies, in  0.493 seconds
+Registered in 0.004348 seconds.
+- Loaded All Assemblies, in  0.402 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.309 seconds
-Domain Reload Profiling: 800ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.305 seconds
+Domain Reload Profiling: 705ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (182ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (128ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (309ms)
+	FinalizeReload (306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (245ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,274 +154,1082 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.943 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.866 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 1675ms
-	BeginReloadAssembly (344ms)
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (341ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (366ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (320ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (174ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (736ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (688ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (444ms)
+		SetupLoadedEditorAssemblies (419ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5828 unused Assets / (6.9 MB). Loaded Objects now: 6535.
-Memory consumption went from 197.2 MB to 190.3 MB.
-Total: 10.650700 ms (FindLiveObjects: 0.764200 ms CreateObjectMapping: 1.018500 ms MarkObjects: 5.272200 ms  DeleteObjects: 3.594100 ms)
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5828 unused Assets / (6.5 MB). Loaded Objects now: 6537.
+Memory consumption went from 202.0 MB to 195.5 MB.
+Total: 9.966100 ms (FindLiveObjects: 1.027200 ms CreateObjectMapping: 0.561800 ms MarkObjects: 5.003400 ms  DeleteObjects: 3.371800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 153329.551528 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14f245367988cd6c17d3d1a40744e274') in 0.0447769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 226407.903478 seconds.
+  path: Assets/Scene7Assets/PurpleVortex2.vfx
+  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1627a3035e4ad87b961f329c006d4b') in 0.0384493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.185529 seconds.
+  Time since last request: 1.068868 seconds.
+  path: Assets/Scene7Assets/PurpleVortex3.vfx
+  artifactKey: Guid(0eaffd80ec1e95c48b663b60c3f76b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex3.vfx using Guid(0eaffd80ec1e95c48b663b60c3f76b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b592849792b53e3aac362c7e17ba1ca') in 0.003585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.486519 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92810f28a6a940142b20db086744c7c3') in 0.0011012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.472098 seconds.
   path: Assets/Scene7Assets/PurpleVortex1.vfx
   artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95fae3e3ea55ec1ba315794aa69fa858') in 0.0048112 seconds
+Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a0fe305a0d8fd46cfcdf0aab22d6ec') in 0.0024497 seconds
 Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1606.877862 seconds.
+  Time since last request: 1.595409 seconds.
   path: Assets/Scene7Assets/PurpleVortex2.vfx
   artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cefb415481ae27449a9ab8a5b9ec63d') in 0.0091033 seconds
+Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4879758b7fa465b107007bfe541fc8f') in 0.0058263 seconds
 Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.874843 seconds.
+  Time since last request: 0.960767 seconds.
+  path: Assets/Scene7Assets/PurpleVortex3.vfx
+  artifactKey: Guid(0eaffd80ec1e95c48b663b60c3f76b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex3.vfx using Guid(0eaffd80ec1e95c48b663b60c3f76b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bfe877368635b38f9b73a7db96c7454') in 0.0031014 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.998802 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaca4a4dd795795b59ff3557591cbd9f') in 0.006238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.770422 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daafef358d218a9ebe95c9d95bccbe30') in 0.0073036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.075694 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6aed2ba3ffa6086b090c86968b9f02') in 0.0059919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.615498 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8881be50d511fb2bfde60a4a89b4786e') in 0.0087306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.089251 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66299f7d76cc266cc23ca1ce7115fee') in 0.005762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.837229 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4001f0fee9b90d804cad1c7556ecb0a3') in 0.0093037 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.799633 seconds.
   path: Assets/Scene7Assets/PurpleVortex2.vfx
   artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5bb91060108b3b9abf980f78d51fe38') in 0.0042644 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd708bc6db3a49b21dc3b19c4a312bdae') in 0.0035285 seconds
+Number of updated asset objects reloaded before import = 4Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.033942 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e124d98b0b11c1185cecdf11e9cef926') in 0.0056258 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 59.067423 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379524d2d6420f66c93d4456f8780300') in 0.001665 seconds
+Number of updated asset objects reloaded before import = 3Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.271149 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71d79c1239564ae24b82b0842a7ec3e7') in 0.004853 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 0.737392 seconds.
+  path: Assets/Scene7Assets/Explode1.vfx
+  artifactKey: Guid(16ef71d99bd6c9748b796c2aaf70e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode1.vfx using Guid(16ef71d99bd6c9748b796c2aaf70e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f32ff29cf367bed9589c46b556a509a') in 0.0033527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.150953 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e30846ac2cb69a4b778b7c53381e9c2') in 0.0033942 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 0.430523 seconds.
+  path: Assets/Scene7Assets/Explode1.vfx
+  artifactKey: Guid(16ef71d99bd6c9748b796c2aaf70e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode1.vfx using Guid(16ef71d99bd6c9748b796c2aaf70e182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7070c1c85d7d3174d054622eb3ea485b') in 0.0023534 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.648886 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8047df653f60db1b2fe4f03ad468ea9') in 0.0065939 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 14.817534 seconds.
+  path: Assets/Scene7Assets/Explode2.vfx
+  artifactKey: Guid(0cb50ea55edf2a646a1099e8c6d1a04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode2.vfx using Guid(0cb50ea55edf2a646a1099e8c6d1a04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '375319d6545ea51e3e05634b749b6d51') in 0.0040427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.629968 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8419356072d9c4a5fcb33a97325c4342') in 0.0039523 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 0.713758 seconds.
+  path: Assets/Scene7Assets/Explode2.vfx
+  artifactKey: Guid(0cb50ea55edf2a646a1099e8c6d1a04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode2.vfx using Guid(0cb50ea55edf2a646a1099e8c6d1a04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafd87b19eda578aebbc0cec68470692') in 0.0027071 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.733827 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9a42334474f43e8df86e6842b0197a7') in 0.0049368 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 16.747113 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72314c3fcf4982448ee31ed4eef1a0cc') in 0.0045212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10571.069939 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c949f7c320cc225571c21a4be4ef0ff') in 0.0305378 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 22.979375 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee37a8efab3bc96ed8cef37d87bc3a61') in 0.0041956 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.846469 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316d6d83ac9bc771b7ec1f987c98d429') in 0.0055588 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 52.180049 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7303d7009d2fbc23e4103b2a1a7c2e83') in 0.0054718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.162898 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9347f327de88c6958335c6711dd3df06') in 0.0047238 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 2.696693 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1e2b2533cab708fc8851c144b880ec5') in 0.0048464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93.027375 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6337406897a51bac9eb8cbfa84b77830') in 0.0037406 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 5.007158 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2602371804bfaf119a2671f2d3123369') in 0.0049724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.376214 seconds.
-  path: Assets/Scene7Assets/PurpleVortex2.vfx
-  artifactKey: Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex2.vfx using Guid(de39e940aa55f384081f008e1ac41e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb83582e107360fd9d94d88ae519c26') in 0.0050745 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 8
+  Time since last request: 14.522087 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d9850bb3d3dc133218fed149878b48b') in 0.0043155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 203.619841 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50bd3a62c6bbad45ad2b5df15acea208') in 0.0057945 seconds
-Number of updated asset objects reloaded before import = 3Number of asset objects unloaded after import = 5
+  Time since last request: 12.792488 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20d7b3b02ff645bf1c3bc7731d9892d5') in 0.0087078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.003711 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f55768554b129c2cbf704724106e1ae') in 0.0043426 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 11.196570 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e615a077accad7d7304b52ad6820a9') in 0.0037116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.498181 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a22110d0a7ed859fa6326d9db54691') in 0.0046286 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 26.712197 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7da49dc49efdaedcdf8d0ae8bdb36e9f') in 0.0050376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.640865 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdda8796bd95dd8bc14f6854eef62044') in 0.0043328 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 160.067402 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d4ea47222271607d77373069503390a') in 0.0043661 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.431296 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4506c25d07de5b40f82028398bf6cbb4') in 0.0050365 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 15.938815 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c858d1bf6406453debaf07a4ddd68c12') in 0.0057777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.476114 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c0bd8522417663afe37533b690cd4c2') in 0.0039211 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 45.463821 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '376080159bab5b3654260a387fb2f56e') in 0.0051772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.855287 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ed177bb61c6fb7270704e4380e5e973') in 0.0027708 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 47.177084 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc3b7508033b24f3c53074df8d51b83') in 0.0062687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.617311 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3473451b1dbf57089cce46ecc0e41a1') in 0.0034537 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 15.388441 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51382c5a8c153c82ee583cb2f5b5c4b2') in 0.0042661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.678111 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf6da44530735b4057f7d050f14490e') in 0.0033007 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 6.629210 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68bc8484c8ec374e7056c91cca01772') in 0.004579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.676335 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85db91d334666616b7c969e13da468a0') in 0.004301 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 2.095770 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1438d1eb4b81f2ffc75ecc0bd2c52f9b') in 0.0040603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.413010 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '598c7f189bedb85d9340c8b62492c98d') in 0.0038391 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 3.103112 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8985309d847497eb4b3763820321c30d') in 0.0059393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.684722 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b20928b7f3cf89dbbecfa24c68ba66b') in 0.0042985 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 7.788642 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e23ca1f2375e034aa1e11f8f0d93cb') in 0.0046944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.745670 seconds.
-  path: Assets/Scene7Assets/PurpleVortex1.vfx
-  artifactKey: Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene7Assets/PurpleVortex1.vfx using Guid(73cc78d9b4a8b654fb2ee695af852361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '122036b1b957a2ff427bfbd18eb3a11c') in 0.0039574 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 5
+  Time since last request: 19.167668 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '447b83ddf2a0a69b7178c6a090ec45e3') in 0.0037138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
+========================================================================
+Received Import Request.
+  Time since last request: 11.590310 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb01e8ff2be7271342cd1217e3da33ba') in 0.0043876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.836391 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c1d6f2ccfeedc1ee6b916d3995c129') in 0.0057806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.306872 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61c0eaeb7b9d721080b7e559071a6bfc') in 0.0061483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.597330 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9f0862eae4ae3f6230d6c046f4879d2') in 0.0071656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.547581 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28ab981ebcf18f0ff521a08f1f2402fe') in 0.0116658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.646923 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cd84435d323c1925f4e8009bfc7803d') in 0.0046674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.568522 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '419e6531f6cf71b2b1efe7ed07b912b1') in 0.0078066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.131517 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2beb49027443843fc916053a1ca828bb') in 0.0064835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.591387 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ae60be6f3bb6af31a596d004d08a376') in 0.0045121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.313435 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c854cdee91ea3ed07f6720dde7af8406') in 0.0045143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.493393 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc2d61f75cd1d2b125e8feb3ed95f9f1') in 0.0059843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.481832 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21d7d65eec9acf3960c65b8ea273befb') in 0.0091675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.441742 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '521f5acdaaf1ca8633b3b5ead24f2692') in 0.0063329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.764110 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e54099d6db53b76e7cb77a0832e2abe1') in 0.0061651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.263885 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56ac2576c173df9e0b800f99671af520') in 0.0067731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.605718 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44da1bc2b10415d4548dd4788791dafb') in 0.0060054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.117366 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5ac589c43329be3548ce0669a6919e') in 0.0056595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.298057 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8193907618535fb22c7671c0577bc499') in 0.0049488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.416161 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b8066f9f9aa0c12a2849af484bffa1') in 0.0059215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 406.322394 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8f9250f11ece09edad416094d5a4aed') in 0.0115594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.401307 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdbb8131ef1cafdd24057e2002e4358d') in 0.0085841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.802363 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d2555bd82a59d59b1fd25d8e597b7f') in 0.0085331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.147696 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf01c04b02c998b47c68f5f371a8205c') in 0.0102968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.435988 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '573d94babd77f6bc78281616bdb0befd') in 0.0065066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.350324 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cecc51828b5b1d8ee4514d35d082a3e') in 0.0062742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.473339 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd63b38ce922f09e0df221ddae4bda1e8') in 0.0095226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.580519 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f1afd9ab44f7e3b4c419ff2902d5ab2') in 0.0103055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.752250 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11977c7a8884226801bf0f3062370b2') in 0.0100142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.126408 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5821f23d6a4018a1eed3a373295302') in 0.0102751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.773852 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08be2a6caa78d2efe3fc9f9a76b13051') in 0.0120457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.441345 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c01bda7bc4055cfad501b612bd03041') in 0.0062905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.266511 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8c1e353e3253a83cef72496282e4b7e') in 0.0086043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.676830 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeeda437f212e9663181c99f78a1fbf3') in 0.0169374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 420.338027 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ebc5fc2f0f3f4467e2d3e409694501') in 0.0135781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.780947 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c389077fdf8218f59dc54ddf28c45767') in 0.011363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.948294 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07d3b9067ac8c914df29de4b064ca81e') in 0.0096322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.447764 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc877cc8a68acd9afb3b71b1c68824a') in 0.0091083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.053632 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aedff16381f6dadf140df02b26c1751d') in 0.0089536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.622673 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '993b58648ea516b1e59a58e4dce6bc48') in 0.009186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.082864 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd7ccddbee904b8f1a1c9c4a47227252') in 0.009369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.820168 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a89ea8725e924160ccf12c4df448ead6') in 0.011088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.288355 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5b68e5f22bc2f4c75409af61a944dc') in 0.011268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.378310 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9118d0e818a578388ed19d5a4bf79ea6') in 0.0067756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.721926 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7789b13d1c7d97af32e9667866fd69df') in 0.0131645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.707370 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07ef09d2caaae60512e56a0cbcea99d7') in 0.0081651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.115331 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c192b99896f922599f85faef1e6b1f8') in 0.0075842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.666639 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0841bb5c088c8c7bda20848075edd343') in 0.0086417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.524339 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a81310021c7403f0da5d2b59742127c8') in 0.0150711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.555488 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4614417af5f391557decec8bf7620584') in 0.0067182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.562054 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c725e4c8e44644d8a52415a8f617fc12') in 0.0153156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.860082 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524056640c95ba4b45afd22dfd32bcd5') in 0.0118735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.737549 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56f60058a54716c915b4fdfbe813558') in 0.011116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.146421 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8284d84e5852524541af415295da144') in 0.0142563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.078097 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '322c7c98a453716f128907b4ac92f932') in 0.0095661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.672556 seconds.
+  path: Assets/Scene7Assets/PurpleVortex.vfx
+  artifactKey: Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/PurpleVortex.vfx using Guid(a9674e6a29591c44c9641c4742e03ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9737829a417a052171d9c04f0f8648c') in 0.0156112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.772023 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a25887d46df06925a06ec764eb0b24') in 0.0171232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.278549 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a841cc8ff3e7aeb568b0026b99cd018') in 0.018388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.631509 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b2fed838c85100dd841eefcfe15780') in 0.0093583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.287644 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbeb66084909cebfc5e22f76e2c1cd19') in 0.0089682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.726278 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de02cdadfa8145f6f222d95b0be7b79') in 0.0130571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.225825 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a450392bcea3996f852586acf4e2a5') in 0.0159795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.759861 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f407d4d0bfb2537da5cc0b53ff3bab92') in 0.010432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.521274 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9ac25e4c25a2173624732c2c33ba803') in 0.011159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.707309 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5f9c8cd5d7113ab43ab8064a129779a') in 0.0101768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.628454 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d2cf0fd177dcbc6455625076ed9b51') in 0.0136846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.185561 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '923439927a589196af693145b43f36d6') in 0.0092938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614892 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '737b338c44ecc467d6929ae98666dfb7') in 0.0155144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.139007 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63dcc9370bf4d660b6e2556d669d5234') in 0.011105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.488821 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa76439b41c3af5c316ecb6405deb59f') in 0.0065082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.202358 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fd0e3e6d12b5730fbba2a9b2db41d0c') in 0.0088792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.397237 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28af4b43fb2895e3a10f943d9971475a') in 0.0102804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.429496 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11023f53aae4fa9b89598c5e94d99026') in 0.007447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.240811 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7865796d83d65381a58943b7a31b1f57') in 0.0116232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.114618 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9d180515a392e51d9df380fefd9e132') in 0.0186838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.811882 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0270b886945e0a2b21b211ac576bfe4') in 0.0183302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.543226 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12daa3c32170480508f7750a961bf098') in 0.0077883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.640504 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b6837562091f83b03633e61d23d714') in 0.005711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.008298 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ec2866905a7f1e84d438d1566b0a4ad') in 0.006001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.630482 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4255c282ae65834fee4b822877a6f0f5') in 0.0117416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.773540 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6e19953d0a38b7e23bc81c5be46fe3') in 0.0059507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.539366 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd3dfdd58effefe2263eebecacdf11d3') in 0.0081404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.245122 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3de2f78a52c0c57ad46e83e08a1005f') in 0.0059732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.906194 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c03ae3c8c80962e080ff08a9f256990') in 0.0578489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.866581 seconds.
+  path: Assets/Scene7Assets/Explode.vfx
+  artifactKey: Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene7Assets/Explode.vfx using Guid(cf89cad833dfc244c9bdf8863c9ad323) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801523a1ca9fa434709c32530dc57c58') in 0.007067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\IntermediateGraphicsTutorials\DemoScenes2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.750 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.119 seconds
+Domain Reload Profiling: 3870ms
+	BeginReloadAssembly (1291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (146ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (383ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1309ms)
+		LoadAssemblies (1247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (299ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1120ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5826 unused Assets / (6.4 MB). Loaded Objects now: 6535.
+Memory consumption went from 170.8 MB to 164.5 MB.
+Total: 15.971500 ms (FindLiveObjects: 0.729100 ms CreateObjectMapping: 0.696500 ms MarkObjects: 8.318900 ms  DeleteObjects: 6.225300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
